@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+	<body>
+		<img src="img/element_parallax2.png" class="tou" />
+		<img src="img/element_animation.png" class="bei" />
+		<!-- 头像 -->
+		<div class="container row header">
+			<!-- 前面空的间隙 -->
+			<div style="height: 100px;" id="toux"></div>
+			<!-- 个人信息 -->
+			<div class="col-sm-6 bg yin">
+				<div class="wu RedTextColor">您好我是</div>
+				<div class="name">林冬丽</div>
+				<div class="glyphicon glyphicon-stats accept">&nbsp;求职意向：wed前端开发</div>
+				<div class="junior ziti">
+					<ul>
+						<li class="img_ba">
+							<img src="img/tp.png" />
+						</li>
+						<li class="xueli">学历：大专</li>
+					</ul>
+				</div>
+				<div class="glyphicon glyphicon-phone phone ziti">
+					<span class="phone_span">电话：17878027556</span>
+				</div>
+				<div class="glyphicon glyphicon-envelope ziti">
+					<span class="phone_span">邮箱：1973239357@qq.com</span>
+				</div>
+				<div class="glyphicon glyphicon-calendar phone ziti">
+					<span class="phone_span">出生年月：1999.10</span>
+				</div>
+				<div class="phone">
+					<!-- 模态框按钮 -->
+					<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+						自我评价
+					</button>
+
+					<!-- 弹出层 -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title" id="myModalLabel">自我评价</h4>
+								</div>
+								<div class="modal-body">
+									<p>本人性格开朗、待人真诚，平时喜欢运动，因为健康在于运动我适应能力比较强，对于新鲜的事物充满着好奇心，有良好的团队协作意识，平时也比较喜欢和别人交谈，我能很快的适应一个新的环境。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 个人图片 -->
+			<div class="col-sm-6 ba">
+				<img src="img/22237.jpg" alt="..." class="img-circle">
+			</div>
+			<!-- 缩小显示的个人信息栏 -->
+			<div class="col-sm-6 bg bg_1 xian">
+				<div class="wu wu_1 RedTextColor">您好我是</div>
+				<div class="name name_1">林冬丽</div>
+				<div class="glyphicon glyphicon-stats accept">&nbsp;求职意向：wed前端开发</div>
+				<div class="junior junior_1 ziti">
+					<ul>
+						<li class="img_ba">
+							<img src="img/tp.png" />
+						</li>
+						<li class="xueli">学历：大专</li>
+					</ul>
+				</div>
+				<div class="glyphicon glyphicon-phone phone ziti">
+					<span class="phone_span">电话：17878027556</span>
+				</div>
+				<div class="glyphicon glyphicon-envelope ziti">
+					<span class="phone_span">邮箱：1973239357@qq.com</span>
+				</div>
+				<div class="glyphicon glyphicon-calendar phone ziti">
+					<span class="phone_span">出生年月：1999.10</span>
+				</div>
+				<div class="phone">
+					<button type="button" class="btn btn-primary btn-lg glyphicon glyphicon-home">
+						<span>广西玉林</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<!-- 导航菜单 -->
+		<nav class="navbar navbar-default topp" id="menu">
+			<div class="container">
+				<!-- 汉堡菜单 -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+					 aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- 导航条 -->
+				<div class="collapse navbar-collapse row tong " id="bs-example-navbar-collapse-1">
+					<div class="nav navbar-nav bai">
+						<li>
+							<a href="#education" class="xinxi ab">教育背景</a>
+						</li>
+					</div>
+					<div class="nav navbar-nav bai beijing">
+						<li>
+							<a href="#item" class="ab SkyBlueTextColor">
+								<span class="bai_1">项目经验</span>
+							</a>
+						</li>
+					</div>
+					<div class="nav navbar-nav bai">
+						<li>
+							<a href="#ryu" class="ab PurpleTextColor">
+								<span class="PurpleTextColor_1">获得荣誉</span>
+							</a>
+						</li>
+					</div>
+					<div class="nav navbar-nav bai">
+						<li>
+							<a href="#jineng" class="ab PinkTextColor">
+								<span class="PinkTextColor_1">技能特长</span>
+							</a>
+						</li>
+					</div>
+					<div class="nav navbar-nav bai">
+						<li>
+							<a href="#xinqu" class="ab GrayTextColor">
+								<span class="GrayTextColor_1">兴趣爱好</span>
+							</a>
+						</li>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- 教育背景 -->
+		<div class="block" id="education">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xs-10">
+						<div class="about_me_sec">
+							<div class="element_about_left">
+								<img src="img/element_about_left.png" />
+							</div>
+							<div class="element_about_right">
+								<img src="img/element_about_right.png" />
+							</div>
+							<div class="heading row">
+								<span class="RedTextColor col-sm-4 col-xs-12">2018.09 – 2021.07</span>
+								<span class="RedTextColor col-sm-4 col-xs-12">毕业院校：广西水利电力职业技术学院 </span>
+								<span class="RedTextColor col-sm-4 col-xs-12">专业：数字媒体应用技术专业</span>
+								<h1>主修课程：</h1>
+							</div>
+							<p>bootstrap框架、HTML5+CSS3网页设计、JavaScript、jQuery编程基础、mysql数据库、phpwed开发</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 项目经验 -->
+		<div id="item">
+			<div class="container">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs row" role="tablist">
+					<li role="presentation" class="active col-sm-4"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"
+						 class="rol_l">完成网页</a></li>
+					<li role="presentation" class="col-sm-4"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"
+						 class="rol_l">完成项目</a></li>
+					<li role="presentation" class="col-sm-4"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"
+						 class="rol_l">移动端页</a></li>
+				</ul>
+				<div class="tab-content">
+					<!-- 完成网页 -->
+					<div role="tabpanel" class="tab-pane active row" id="home">
+						<div class="col-sm-4 col-xs-6">
+							<div class="bag_con">
+								<!-- 商品图片 -->
+								<div>
+									<img src="img/amani.png" />
+								</div>
+								<div class="col_wz">
+									<div class="col_wz2">
+										<a class="col_span">响应式网页</a>
+									</div>
+									<div>
+										<br />
+										<p class="col_wz2 col_span">阿玛尼首页仿站</p>
+										<br />
+										<p class="col_wz2 col_span">主要运用技术：bootstrap框架、HTML5+CSS3</p>
+									</div>
+									<div class="kon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 col-xs-6">
+							<div class="bag_con">
+								<!-- 商品图片 -->
+								<div>
+									<img src="img/mofashijia.png" />
+								</div>
+								<div class="col_wz">
+									<div class="col_wz2">
+										<a class="col_span">静态网页</a>
+									</div>
+									<div>
+										<br />
+										<p class="col_wz2 col_span">膜法世家仿站</p>
+										<br />
+										<p class="col_wz2 col_span">主要运用技术：HTML5+CSS3</p>
+									</div>
+									<div class="kon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 col-xs-6 yincan">
+							<div class="bag_con">
+								<!-- 作品图片 -->
+								<div>
+									<img src="img/ICBC.png" />
+								</div>
+								<div class="col_wz">
+									<div class="col_wz2">
+										<a class="col_span">静态网页</a>
+									</div>
+									<div>
+										<br />
+										<p class="col_wz2 col_span">工商银行首页仿站</p>
+										<br />
+										<p class="col_wz2 col_span">主要运用技术：HTML5+CSS3</p>
+									</div>
+									<div class="kon"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 完成项目 -->
+					<div role="tabpanel" class="tab-pane" id="profile">
+						<div class="col-sm-4 col-xs-6">
+							<div class="bag_con">
+								<!-- 商品图片 -->
+								<div>
+									<img src="img/kuai.png" />
+								</div>
+								<div class="col_wz">
+									<div class="col_wz2">
+										<a class="col_span">项目名称：快快送达</a>
+									</div>
+									<div>
+										<br />
+										<p class="col_wz2 col_span">实现功能：用户验证、数据的增删改查、修改个人信息、密码加密</p>
+										<br />
+										<p class="col_wz2 col_span">主要运用技术：js、php、ajax</p>
+									</div>
+									<div class="kon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 col-xs-6"></div>
+						<div class="col-sm-4 col-xs-6 col_last yincan"></div>
+					</div>
+					<!-- 移动端页 -->
+					<div role="tabpanel" class="tab-pane" id="messages">
+						<div class="col-sm-4 col-xs-6">
+							<div class="bag_con">
+								<!-- 作品图片 -->
+								<div>
+									<img src="img/JD.png" />
+								</div>
+								<div class="col_wz">
+									<div class="col_wz2">
+										<a class="col_span">移动端页面</a>
+									</div>
+									<div>
+										<br />
+										<p class="col_wz2 col_span">京东移动端</p>
+										<br />
+										<p class="col_wz2 col_span">主要运用技术：HTML5+CSS3、swiper</p>
+									</div>
+									<div class="kon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 col-xs-6">
+							<div class="bag_con">
+								<!-- 作品图片 -->
+								<div>
+									<img src="img/xiecheng.png" />
+								</div>
+								<div class="col_wz">
+									<div class="col_wz2">
+										<a class="col_span">移动端页面</a>
+									</div>
+									<div>
+										<br />
+										<p class="col_wz2 col_span">携程移动端</p>
+										<br />
+										<p class="col_wz2 col_span">主要运用技术：HTML5+CSS3、swiper</p>
+									</div>
+									<div class="kon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 col-xs-6 col_last yincan"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 获得荣誉 -->
+		<div class="block bg_light" id="ryu">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xs-12">
+						<div class="">
+							<span class="GreenTextColor">获得荣誉</span>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-container" dir="rtl">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="reviews_sec row">
+								<div class="col-sm-6 col-xs-12 ">
+									<div class="reviews ">
+										<img src="img/jiangxuejin.jpg" />
+										<label>荣获2018-2019学年国家励志奖学金</label>
+									</div>
+								</div>
+								<div class="col-xs-6 yincan">
+									<div class="reviews ">
+										<img src="img/youxiu.jpg" />
+										<label>荣获2018-2019学年学院优秀三好学生</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="reviews_sec row">
+								<div class="col-sm-6 col-xs-12 ">
+									<div class="reviews ">
+										<img src="img/sanhao.jpg" />
+										<label>荣获2018-2019学年学院三好学生</label>
+									</div>
+								</div>
+								<div class="col-xs-6 yincan">
+									<div class="reviews ">
+										<img src="img/xueshengganb.jpg" />
+										<label>荣获2018-2019学年学院优秀学生干部</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="reviews_sec row">
+								<div class="col-sm-6 col-xs-12 ">
+									<div class="reviews ">
+										<img src="img/jingsai.jpg" />
+										<label>荣获“厚溥杯”工作知识竞赛三等奖</label>
+									</div>
+								</div>
+								<div class="col-xs-6 yincan">
+									<div class="reviews ">
+										<img src="img/jieli.jpg" />
+										<label>荣获校运会女子4x400米接力赛第四名</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="reviews_sec row">
+								<div class="col-sm-6 col-xs-12 ">
+									<div class="reviews ">
+										<img src="img/shetuan.jpg" />
+										<label>荣获“五四评优”优秀社团成功</label>
+									</div>
+								</div>
+								<div class="col-xs-6 yincan">
+									<div class="reviews ">
+										<img src="img/15.jpg" />
+										<label>荣获校运会女子优秀青年志愿者</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="reviews_sec row">
+								<div class="col-sm-6 col-xs-12 ">
+									<div class="reviews ">
+										<img src="img/aizib.jpg" />
+										<label>荣获“防艾青年团”入围奖</label>
+									</div>
+								</div>
+								<div class="col-xs-6 yincan">
+									<div class="reviews ">
+										<img src="img/huaibao.png" />
+										<label>荣获大学生环保知识竞赛</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</div>
+		<!-- 技能与特长 -->
+		<div class="block remove_top" id="jineng">
+			<div class="container">
+				<div class="element_city">
+					<img src="img/element_city.jpg" />
+				</div>
+				<div class="row justify-content-center mo">
+					<div class="col-xl-10">
+						<div class="heading">
+							<h1>技能与特长</h1>
+						</div>
+						<div class="skill_sec">
+							<!-- progress_sec -->
+							<div class="progress_sec">
+								<h3>
+									<span>
+										<span>php开发</span>
+									</span>
+								</h3>
+								<div class="skill_shape">
+									<div class="skill_bar RedBgShadow" style="width: 50%;">
+										<span class="RedTextColor">
+											<font style="vertical-align: inherit;">50</font>
+											<i>
+												<font style="vertical-align: inherit;">%</font>
+											</i>
+										</span>
+									</div>
+								</div>
+							</div>
+							<!-- progress_sec -->
+							<div class="progress_sec">
+								<h3>
+									<span>
+										<span>HTML5+CSS3</span>
+									</span>
+								</h3>
+								<div class="skill_shape">
+									<div class="skill_bar PurpleBgShadow" style="width: 80%;">
+										<span class="PurpleTextColor">
+											<font style="vertical-align: inherit;">80</font>
+											<i>
+												<font style="vertical-align: inherit;">%</font>
+											</i>
+										</span>
+									</div>
+								</div>
+							</div>
+							<!-- 网页设计 -->
+							<div class="progress_sec">
+								<h3>
+									<span>
+										<span>网页设计</span>
+									</span>
+								</h3>
+								<div class="skill_shape">
+									<div class="skill_bar SkyBlueBgShadow" style="width: 70%;">
+										<span class="SkyBlueTextColor">
+											<font style="vertical-align: inherit;">70</font>
+											<i>
+												<font style="vertical-align: inherit;">%</font>
+											</i>
+										</span>
+									</div>
+								</div>
+							</div>
+							<!-- JavaScript / jQuery -->
+							<div class="progress_sec">
+								<h3>
+									<span>
+										<span>JavaScript / jQuery</span>
+									</span>
+								</h3>
+								<div class="skill_shape">
+									<div class="skill_bar GreenBgShadow" style="width: 65%;">
+										<span class="TextColor">
+											<font style="vertical-align: inherit;">65</font>
+											<i>
+												<font style="vertical-align: inherit;">%</font>
+											</i>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 兴趣爱好 -->
+		<div class="block" id="xinqu">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-10">
+						<div class="heading center">
+							<span class="YellowTextColor">兴趣&爱好</span>
+						</div>
+						<div class="hobbies_sec">
+							<div class="hobbies">
+								<div class="element_hobbies">
+									<img src="img/element_hobbies1.png" />
+								</div>
+								<div class="hobbies_icon_box">
+									<img src="img/lvyoiu.png" />
+								</div>
+								<h4>喜欢一场</h4>
+								<span>说走就走的旅行</span>
+							</div>
+							<div class="hobbies">
+								<div class="element_hobbies">
+									<img src="img/element_hobbies2.png" />
+								</div>
+								<div class="hobbies_icon_box">
+									<img src="img/rev.png" />
+								</div>
+								<h4>喜欢交朋友</h4>
+								<span>享受与朋友相处的乐趣</span>
+							</div>
+							<div class="hobbies">
+								<div class="element_hobbies">
+									<img src="img/element_hobbies3.png" />
+								</div>
+								<div class="hobbies_icon_box">
+									<img src="img/muice.png" />
+								</div>
+								<h4>即使一个人也可以</h4>
+								<span>偶尔嗨歌听音乐</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 底部 -->
+		<div class="container-fluid di" id="dilw">
+			<div class="dibu">
+				<span class="glyphicon glyphicon-earphone">&nbsp;与我联系：</span>
+				<span>17878027556</span>
+			</div>
+		</div>
+		<!-- 返回顶部 -->
+		<div class="back_to_top" id="top_tt">
+			<a href="#toux">
+				<span class="glyphicon glyphicon-chevron-up">
+					<p>top</p>
+				</span>
+			</a>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="js/swiper.min.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="js/index.js" charset="UTF-8"></script>
+</html>
